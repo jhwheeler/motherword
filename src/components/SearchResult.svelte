@@ -1,13 +1,16 @@
 <script>
+  import { formatLink } from '../utils/formatLink'
+
   export let searchResult
+  export let lang
 
 </script>
 
 <div class="result">
-  <a href={searchResult.url} target="_blank">
+  <a href={formatLink({ link: searchResult, lang })} target="_blank">
     <img src="/images/wikipedia.png" alt="wikipedia-logo" />
   </a>
-  <p class="text">{searchResult.title}</p>
+  <p class="text">{searchResult}</p>
 </div>
 
 <style>

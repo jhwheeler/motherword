@@ -8,9 +8,19 @@
   import '../app.css'
 
   let query = ''
-  let searchResult = null
+  let loading = false
+  let searchResult
+  let disambiguationLinks
+
+  function clear() {
+    searchResult = null
+    disambiguationLinks = null
+  }
 
   async function search (event) {
+    clear()
+    loading = true
+
     const { detail: query } = event
 
     const pageOptions = {
@@ -25,39 +35,50 @@
     const categories = await page.categories(pageOptions)
 
     if (categories.includes(DISAMBIGUATION_CATEGORY)) {
-      console.log('disambiguation page')
+      disambiguationLinks = await orderLinksByRelevancy({ page, query, lang: $sourceLang.code })
 
-      const disambiguationLinks = await orderLinksByRelevancy(page, query)
-      console.log('disambiguationLinks', disambiguationLinks)
-      return disambiguationLinks
+      loading = false
+      return
     }
 
     const langLinks = await page.langLinks(pageOptions)
 
     const [result] = langLinks.filter(link => link.lang === $targetLang.code)
+    loading = false
 
     if (!result) {
       const errorMessage = `No translation found in Wikipedia for ${$targetLang.name}`
 
       console.log(errorMessage)
-      console.log('langLinks', langLinks)
 
       searchResult = errorMessage
       return
     }
 
     console.log('result', result)
-    searchResult = result
+    searchResult = result.title
   }
 
 </script>
 
 <h1>MotherWord</h1>
 
+{#if loading}
+  Loading...
+{/if}
+
 {#if searchResult}
   <h2>Results</h2>
 
-  <SearchResult {searchResult} />
+  <SearchResult {searchResult} lang={$targetLang.code} />
+{/if}
+
+{#if disambiguationLinks?.length}
+  <p>Did you mean...?</p>
+
+  {#each disambiguationLinks as link}
+    <SearchResult searchResult={link} lang={$sourceLang.code} />
+  {/each}
 
 {/if}
 

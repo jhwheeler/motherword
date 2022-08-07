@@ -1,4 +1,4 @@
-function determineRelevancy(link, query) {
+function determineRelevancy({ link, query }) {
 	/* 3 levels of relevancy:
 	 *   a) qualified match: the query itself, plus a qualifier in parentheses, i.e. of the form `{query} ({qualifier})`
 	 *   b) close match: includes the query itself, but not of the form `{query} ({qualifier})`
@@ -11,26 +11,26 @@ function determineRelevancy(link, query) {
 	 */
 
 	const relevancyLevels = {
-		qualified: new RegExp(`^${query}` + ' \(.*\)', 'i').test(link),
-		close: link.includes(query),
+		qualifiedMatch: new RegExp(`^${query}` + ' \(.*\)', 'i').test(link),
+		closeMatch: link.includes(query),
 	}
 
-	if (relevancyLevels.qualified) return 1
-	if (relevancyLevels.close) return 0
+	if (relevancyLevels.qualifiedMatch) return 1
+	if (relevancyLevels.closeMatch) return 0
 	return -1
 }
 
-export async function orderLinksByRelevancy(page, query) {
+export async function orderLinksByRelevancy({ page, query, lang }) {
 	const links = await page.links()
 
 	const linksWithRelevancies = links.reduce((relevancyMap, link) => {
-		const relevancy = determineRelevancy(link, query)
+		const relevancy = determineRelevancy({ link, query })
 
 		relevancyMap[link] = relevancy
 		return relevancyMap
 	}, {})
 
 	return Object.keys(linksWithRelevancies)
-		.sort((a, b) => -(linksWithRelevancies[a] - linksWithRelevancies[b]))
+	.sort((a, b) => -(linksWithRelevancies[a] - linksWithRelevancies[b]))
 }
 
