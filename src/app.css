@@ -3,6 +3,9 @@ html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+body {
+    margin: 0;
+}
 textarea:focus, input:focus{
     outline: none;
 }
@@ -14,7 +17,7 @@ textarea:focus, input:focus{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #383B3A;
     border-radius: 0.25rem;
     user-select: none;
 }

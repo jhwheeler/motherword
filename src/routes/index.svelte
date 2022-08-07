@@ -59,7 +59,9 @@
   }
 </script>
 
-<h1>MotherWord</h1>
+<header>
+  <h1>MotherWord</h1>
+</header>
 
 {#if loading}
   Loading...
@@ -90,3 +92,16 @@
 {/if}
 
 <Menu on:search={search} />
+
+<style>
+  header {
+    background-color: #3E7ED6;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  h1 {
+    color: #F2FFFB;
+    margin: 0;
+  }
+</style>

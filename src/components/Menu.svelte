@@ -40,9 +40,10 @@
 
 <style>
   .bottom-menu {
+    background-color: #50D4BC;
     position: fixed;
-    padding: 0 0.5rem;
-    bottom: 0.5rem;
+    padding: 0.5rem;
+    bottom: 0;
     left: 0;
     right: 0;
     display: flex;
@@ -74,9 +75,10 @@
     gap: 0.5rem;
   }
 
-  .input-wrapper .search {
+  .search {
     flex: 1;
-    background-color: #CCC;
+    background-color: #F2FFFB;
+    border-radius: 5px;
     height: 1.5rem;
     font-size: 2rem;
     padding: 1rem 1.25rem;
