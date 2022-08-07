@@ -25,9 +25,6 @@
       placeholder="Translate a word..."
       class="search"
     >
-    <button type="submit" class="button">
-      <img src="/images/search.svg" alt="search icon" />
-    </button>
   </form>
 
   <div class="language-select">
@@ -84,12 +81,6 @@
     font-size: 2rem;
     padding: 1rem 1.25rem;
     border: 0;
-  }
-
-  .input-wrapper .enter {
-    width: 3rem;
-    height: 3rem;
-    font-size: 1.5rem;
   }
 
   .language-select {
