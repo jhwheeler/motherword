@@ -1,8 +1,10 @@
 <script>
   import wiki from 'wikipedia'
+  import { orderLinksByRelevancy } from '../utils/orderLinksByRelevancy'
 
   const DEFAULT_SOURCE_LANGUAGE = 'en'
   const DEFAULT_TARGET_LANGUAGE = 'sv'
+  const DISAMBIGUATION_CATEGORY = 'Category:All disambiguation pages'
 
   let query = ''
   let sourceLang = DEFAULT_SOURCE_LANGUAGE
@@ -16,14 +18,19 @@
 
     wiki.setLang(sourceLang)
 
-    const page = await wiki.page(query);
+    const page = await wiki.page(query)
 
-    const categories = await page.categories(pageOptions);
-    const langLinks = await page.langLinks(pageOptions);
-    const links = await page.links();
+    const categories = await page.categories(pageOptions)
 
-    console.log('page', page)
-    console.log('categories', categories)
+    if (categories.includes(DISAMBIGUATION_CATEGORY)) {
+      console.log('disambiguation page!')
+
+      const disambiguationLinks = await orderLinksByRelevancy(page, query)
+      console.log('disambiguationLinks', disambiguationLinks)
+      return disambiguationLinks
+    }
+
+    const langLinks = await page.langLinks(pageOptions)
 
     const [result] = langLinks.filter(link => link.lang === targetLang)
 
@@ -32,7 +39,6 @@
 
       console.log(errorMessage)
       console.log('langLinks', langLinks)
-      console.log('links', links)
 
       return errorMessage
     }
