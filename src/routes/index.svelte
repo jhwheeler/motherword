@@ -2,6 +2,7 @@
   import wiki from 'wikipedia'
   import { orderLinksByRelevancy } from '../utils/orderLinksByRelevancy'
   import SearchResult from '../components/SearchResult.svelte'
+  import '../app.css'
 
   const DEFAULT_SOURCE_LANGUAGE = 'en'
   const DEFAULT_TARGET_LANGUAGE = 'sv'
