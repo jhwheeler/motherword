@@ -14,7 +14,9 @@
 
 <style>
   .language-choice {
+    display: flex;
     flex: 1;
+    align-items: center;
     height: 2rem;
     line-height: 3rem;
     padding: 0.25rem 0.5rem;
