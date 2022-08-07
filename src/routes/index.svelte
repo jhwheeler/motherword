@@ -10,7 +10,9 @@
   let query = ''
   let searchResult = null
 
-  async function search () {
+  async function search (event) {
+    const { detail: query } = event
+
     const pageOptions = {
       redirect: false,
       autoSuggest: true,
@@ -52,13 +54,6 @@
 
 <h1>MotherWord</h1>
 
-<form on:submit|preventDefault={search}>
-  <input bind:value={query}>
-  <button type="submit">
-    Search
-  </button>
-</form>
-
 {#if searchResult}
   <h2>Results</h2>
 
@@ -66,4 +61,4 @@
 
 {/if}
 
-<Menu />
+<Menu on:search={search} />

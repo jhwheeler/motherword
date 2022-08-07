@@ -1,6 +1,11 @@
 <script>
   import LanguageSelectButton from './LanguageSelectButton.svelte'
   import { sourceLang, targetLang } from '../stores'
+  import { createEventDispatcher } from 'svelte'
+
+  const dispatch = createEventDispatcher()
+
+  let query
 
   function switchLanguage() {
     const newSource = $targetLang
@@ -13,15 +18,24 @@
 </script>
 
 <div class="bottom-menu">
-  <div class="input-wrapper">
-    <input type="text" class="search" placeholder="Translate a word...">
-    <div class="enter button"></div>
-  </div>
+  <form on:submit|preventDefault={() => dispatch('search', query)} class="input-wrapper">
+    <input
+      type="text"
+      bind:value={query}
+      placeholder="Translate a word..."
+      class="search"
+    >
+    <button type="submit" class="button">
+      <img src="/images/search.svg" alt="search icon" />
+    </button>
+  </form>
 
   <div class="language-select">
     <LanguageSelectButton language={$sourceLang} />
 
-    <div class="switch button" on:click={switchLanguage}></div>
+    <div class="switch button" on:click={switchLanguage}>
+      <img src="/images/flip.svg" alt="switch language" />
+    </div>
 
     <LanguageSelectButton language={$targetLang} />
   </div>
@@ -39,7 +53,7 @@
     gap: 0.5rem;
   }
 
-  .bottom-menu .language-select .button {
+  .language-select .button {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 0.5rem;
@@ -49,24 +63,21 @@
     padding: 0.25rem 0.5rem;
   }
 
-  .bottom-menu .switch {
+  .switch {
     width: 2rem;
     height: 2rem;
     background-size: 2rem;
     padding: 0;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-image: url('../static/images/flip.svg');
   }
 
-  .bottom-menu .input-wrapper {
+  .input-wrapper {
     flex: 1;
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
   }
 
-  .bottom-menu .input-wrapper .search {
+  .input-wrapper .search {
     flex: 1;
     background-color: #CCC;
     height: 1.5rem;
@@ -75,17 +86,13 @@
     border: 0;
   }
 
-  .bottom-menu .input-wrapper .enter {
+  .input-wrapper .enter {
     width: 3rem;
     height: 3rem;
     font-size: 1.5rem;
-    background-image: url('../static/images/search.svg');
-    background-size: 2rem;
-    background-repeat: no-repeat;
-    background-position: center center;
   }
 
-  .bottom-menu .language-select {
+  .language-select {
     flex: 1;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -96,10 +103,4 @@
     vertical-align: middle;
   }
 
-  .bottom-menu.language-select .language-choice {
-    flex: 1;
-    height: 2rem;
-    line-height: 3rem;
-    padding: 0.25rem 0.5rem;
-  }
 </style>
