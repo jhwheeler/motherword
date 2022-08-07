@@ -1,12 +1,14 @@
 <script>
   import wiki from 'wikipedia'
   import { orderLinksByRelevancy } from '../utils/orderLinksByRelevancy'
+  import SearchResult from '../components/SearchResult.svelte'
 
   const DEFAULT_SOURCE_LANGUAGE = 'en'
   const DEFAULT_TARGET_LANGUAGE = 'sv'
   const DISAMBIGUATION_CATEGORY = 'Category:All disambiguation pages'
 
   let query = ''
+  let searchResult = null
   let sourceLang = DEFAULT_SOURCE_LANGUAGE
   let targetLang = DEFAULT_TARGET_LANGUAGE
 
@@ -40,11 +42,12 @@
       console.log(errorMessage)
       console.log('langLinks', langLinks)
 
-      return errorMessage
+      searchResult = errorMessage
+      return
     }
 
     console.log('result', result)
-    return result
+    searchResult = result
   }
 
 </script>
@@ -58,4 +61,8 @@
   </button>
 </form>
 
-<p>Word: {query}</p>
+{#if searchResult}
+  <h2>Results</h2>
+
+  <SearchResult {searchResult} />
+{/if}
