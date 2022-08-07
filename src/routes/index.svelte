@@ -1,17 +1,14 @@
 <script>
   import wiki from 'wikipedia'
   import { orderLinksByRelevancy } from '../utils/orderLinksByRelevancy'
+  import Menu from '../components/Menu.svelte'
   import SearchResult from '../components/SearchResult.svelte'
+  import { DISAMBIGUATION_CATEGORY } from '../constants'
+  import { sourceLang, targetLang } from '../stores'
   import '../app.css'
-
-  const DEFAULT_SOURCE_LANGUAGE = 'en'
-  const DEFAULT_TARGET_LANGUAGE = 'sv'
-  const DISAMBIGUATION_CATEGORY = 'Category:All disambiguation pages'
 
   let query = ''
   let searchResult = null
-  let sourceLang = DEFAULT_SOURCE_LANGUAGE
-  let targetLang = DEFAULT_TARGET_LANGUAGE
 
   async function search () {
     const pageOptions = {
@@ -19,14 +16,14 @@
       autoSuggest: true,
     }
 
-    wiki.setLang(sourceLang)
+    wiki.setLang($sourceLang.code)
 
     const page = await wiki.page(query)
 
     const categories = await page.categories(pageOptions)
 
     if (categories.includes(DISAMBIGUATION_CATEGORY)) {
-      console.log('disambiguation page!')
+      console.log('disambiguation page')
 
       const disambiguationLinks = await orderLinksByRelevancy(page, query)
       console.log('disambiguationLinks', disambiguationLinks)
@@ -35,10 +32,10 @@
 
     const langLinks = await page.langLinks(pageOptions)
 
-    const [result] = langLinks.filter(link => link.lang === targetLang)
+    const [result] = langLinks.filter(link => link.lang === $targetLang.code)
 
     if (!result) {
-      const errorMessage = `No translation found in Wikipedia for ${targetLang}`
+      const errorMessage = `No translation found in Wikipedia for ${$targetLang.name}`
 
       console.log(errorMessage)
       console.log('langLinks', langLinks)
@@ -66,4 +63,7 @@
   <h2>Results</h2>
 
   <SearchResult {searchResult} />
+
 {/if}
+
+<Menu />
