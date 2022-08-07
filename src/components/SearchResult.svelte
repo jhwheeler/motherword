@@ -1,12 +1,23 @@
 <script>
   import { formatLink } from '../utils/formatLink'
+  import { createEventDispatcher } from 'svelte'
 
   export let searchResult
   export let lang
+  export let isDisambiguationLink = false
+
+  const dispatch = createEventDispatcher()
+
+  function resetSearch () {
+    if (!isDisambiguationLink) return
+
+    dispatch('resetSearch', searchResult)
+  }
+
 
 </script>
 
-<div class="result">
+<div class="result" on:click={resetSearch}>
   <a href={formatLink({ link: searchResult, lang })} target="_blank">
     <img src="/images/wikipedia.png" alt="wikipedia-logo" />
   </a>

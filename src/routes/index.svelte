@@ -7,14 +7,15 @@
   import { sourceLang, targetLang } from '../stores'
   import '../app.css'
 
-  let query = ''
-  let loading = false
   let searchResult
   let disambiguationLinks
+  let loading = false
+  let error
 
   function clear() {
     searchResult = null
     disambiguationLinks = null
+    error = null
   }
 
   async function search (event) {
@@ -47,24 +48,25 @@
     loading = false
 
     if (!result) {
-      const errorMessage = `No translation found in Wikipedia for ${$targetLang.name}`
+      const errorMessage = `No translation found in Wikipedia for "${query}" in ${$targetLang.name}`
 
-      console.log(errorMessage)
-
-      searchResult = errorMessage
+      error = errorMessage
+      console.error(errorMessage)
       return
     }
 
-    console.log('result', result)
     searchResult = result.title
   }
-
 </script>
 
 <h1>MotherWord</h1>
 
 {#if loading}
   Loading...
+{/if}
+
+{#if error}
+  <p>{error}</p>
 {/if}
 
 {#if searchResult}
@@ -77,7 +79,12 @@
   <p>Did you mean...?</p>
 
   {#each disambiguationLinks as link}
-    <SearchResult searchResult={link} lang={$sourceLang.code} />
+    <SearchResult
+      searchResult={link}
+      lang={$sourceLang.code}
+      on:resetSearch={search}
+      isDisambiguationLink
+    />
   {/each}
 
 {/if}
