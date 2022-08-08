@@ -8,7 +8,8 @@ body {
     margin: 0;
 }
 
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: none;
 }
 
@@ -29,62 +30,21 @@ button:hover {
     cursor: pointer
 }
 
-
-.language-select .search {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.5rem;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 2rem;
-    background-image: url('../static/images/search.svg');
-    background-size: 1.5rem;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.language-list {
-    top: 0.5rem;
-    left: 0.5rem;
-    right: 0.5rem;
-    bottom: 3.5rem;
-    position: absolute;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    border: 2px solid black;
-    padding: 0;
-    background-color: white;
-}
-
-.language-list .search {
-    background-color: #CCC;
-    height: 2rem;
-    padding: 0.5rem;
-    border: 0;
-    font-size: 1.5rem;
-}
-.language-list .choices {
+.search {
     flex: 1;
-    margin: 0.25rem 0;
-}
-.language-list .choices > * {
-    height: 2rem;
-    line-height: 2rem;
-    vertical-align: middle;
-}
-.language-list ul {
-    padding: 0;
-    list-style-type: none;
-}
-.language-list .language-choice {
-    padding: 0.25rem 0.5rem;
+    background-color: #F2FFFB;
+    border-radius: 5px;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 1rem 1.25rem;
+    border: 0;
+    width: 100%;
 }
 
 .hidden {
     display: none;
 }
+
 .body-main-content {
     display: flex;
     flex-direction: column;
@@ -92,15 +52,18 @@ button:hover {
     border: 2px solid black;
     border-radius: 0.5rem;
 }
+
 .body-main-content .results {
     flex: 1;
     padding: 1rem;
 }
+
 .body-main-content .results h2 {
     font-size: 2rem;
     padding: 0;
     margin: 0;
 }
+
 .body-main-content .result {
     display: flex;
     flex-direction: row;
@@ -111,9 +74,7 @@ button:hover {
     line-height: 1.5rem;
 }
 
-
 .body-main-content .result.suggestion .text {
     color: darkblue;
     font-style: italic;
 }
-

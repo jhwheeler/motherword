@@ -77,16 +77,6 @@
     gap: 0.5rem;
   }
 
-  .search {
-    flex: 1;
-    background-color: #F2FFFB;
-    border-radius: 5px;
-    height: 1.5rem;
-    font-size: 1rem;
-    padding: 1rem 1.25rem;
-    border: 0;
-  }
-
   .language-select {
     flex: 1;
     flex-direction: row;
