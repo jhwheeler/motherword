@@ -59,7 +59,7 @@
 
 </script>
 
-<section>
+<section id="results">
   {#if loading}
     <h2>Loading...</h2>
   {/if}
@@ -92,7 +92,7 @@
 <Menu on:search={search} />
 
 <style>
-  section {
+  #results {
     padding: 0.5rem;
   }
 </style>
