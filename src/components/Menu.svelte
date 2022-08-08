@@ -7,6 +7,7 @@
   const dispatch = createEventDispatcher()
 
   let query
+  let textInput
 
   function flipLanguages() {
     const newSource = $targetLang
@@ -14,6 +15,12 @@
 
     sourceLang.set(newSource)
     targetLang.set(newTarget)
+  }
+
+  function onKeyDown(keyboardEvent) {
+    const enter = 13
+
+    if (keyboardEvent.keyCode === enter) textInput.blur()
   }
 
   const search = text => dispatch('search', text)
@@ -26,7 +33,9 @@
   <div class="input-wrapper">
     <input
       type="text"
+      bind:this={textInput}
       bind:value={query}
+      on:keydown={onKeyDown}
       placeholder="Translate a word..."
       class="search"
     >
