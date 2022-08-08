@@ -91,14 +91,18 @@
   {#if disambiguationLinks?.length}
     <p>Did you mean...?</p>
 
-    {#each disambiguationLinks as link}
-      <SearchResult
-        searchResult={link}
-        lang={$sourceLang.code}
-        on:resetSearch={search}
-        isDisambiguationLink
-      />
-    {/each}
+    <ul>
+      {#each disambiguationLinks as link}
+        <li>
+          <SearchResult
+            searchResult={link}
+            lang={$sourceLang.code}
+            on:resetSearch={search}
+            isDisambiguationLink
+          />
+        </li>
+      {/each}
+    </ul>
 
   {/if}
 </section>

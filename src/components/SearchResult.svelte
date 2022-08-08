@@ -50,7 +50,7 @@
   }
 
   .result .text {
-    font-size: 1.5rem;
+    font-size: 1rem;
     flex: 1;
     padding-left: 0.5rem;
   }

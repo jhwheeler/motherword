@@ -65,13 +65,4 @@
     padding: 0;
 }
 
-ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-li {
-    padding: 0.25rem 0.5rem;
-}
-
 </style>
