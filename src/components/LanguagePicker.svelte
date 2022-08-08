@@ -7,10 +7,10 @@
   let query
 
   function setLanguage (language) {
-    $languagePickerVisible === LANGUAGE_TYPE.SOURCE 
-      ? sourceLang.set(language) 
+    $languagePickerVisible === LANGUAGE_TYPE.SOURCE
+      ? sourceLang.set(language)
       : targetLang.set(language)
-    
+
     // close language picker
     languagePickerVisible.set(null)
   }
@@ -20,7 +20,7 @@
 
     return languages.filter(language => {
       const searchableTerms = Object.values(language).map(v => v.toLocaleLowerCase()).join('|')
-      return searchableTerms.includes(text)
+      return searchableTerms.includes(text.toLocaleLowerCase())
     })
   }
 
@@ -42,8 +42,8 @@
     <ul>
       {#each filteredLanguages as language}
         <li>
-          <LanguageSelectButton 
-            {language} 
+          <LanguageSelectButton
+            {language}
             showAutonym
             on:click={() => setLanguage(language)}
           />
