@@ -30,7 +30,19 @@
 
     wiki.setLang($sourceLang.code)
 
-    const page = await wiki.page(query)
+    let page
+
+    try {
+      page = await wiki.page(query)
+    } catch (e) {
+      const errorMessage = `No page found in Wikipedia for "${query}" in ${$sourceLang.name}. Please check your spelling, try a different word, or use a different source language.`
+
+      error = errorMessage
+      console.error(errorMessage)
+      loading = false
+      return
+    }
+
 
     const categories = await page.categories(pageOptions)
 
