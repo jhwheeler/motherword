@@ -95,7 +95,7 @@
     "autonym": "Boarisch"
   },
   {
-    "code": "bat-smg",
+    "code": "sgs",
     "name": "Samogitian",
     "autonym": "Žemaitėška"
   },
@@ -108,11 +108,6 @@
     "code": "be",
     "name": "Belarusian",
     "autonym": "Беларуская"
-  },
-  {
-    "code": "be-x-old",
-    "name": "Belarusian (Taraškievica)",
-    "autonym": "Беларуская (тарашкевіца)"
   },
   {
     "code": "bg",
@@ -340,7 +335,7 @@
     "autonym": "Suomi"
   },
   {
-    "code": "fiu-vro",
+    "code": "vro",
     "name": "Võro",
     "autonym": "Võro"
   },
@@ -361,8 +356,8 @@
   },
   {
     "code": "frp",
-    "name": "Arpitan/Franco-Provençal",
-    "autonym": "Arpitan/francoprovençal"
+    "name": "Franco-Provençal",
+    "autonym": "Francoprovençal"
   },
   {
     "code": "fur",
@@ -646,8 +641,8 @@
   },
   {
     "code": "lad",
-    "name": "Ladino/Judeo-Spanish",
-    "autonym": "Dzhudezmo/Djudeo-Espanyol"
+    "name": "Ladino",
+    "autonym": "Dzhudezmo"
   },
   {
     "code": "lan",
@@ -703,11 +698,6 @@
     "code": "lv",
     "name": "Latvian",
     "autonym": "Latviešu"
-  },
-  {
-    "code": "map-bms",
-    "name": "Banyumasan",
-    "autonym": "Basa Banyumasan"
   },
   {
     "code": "mg",
@@ -813,11 +803,6 @@
     "code": "nds",
     "name": "Low German/ Low Saxon",
     "autonym": "Plattdüütsch"
-  },
-  {
-    "code": "nds-nl",
-    "name": "Dutch Low Saxon",
-    "autonym": "Nedersaksisch"
   },
   {
     "code": "ne",
@@ -980,7 +965,7 @@
     "autonym": "Română"
   },
   {
-    "code": "roa-rup",
+    "code": "rup",
     "name": "Aromanian",
     "autonym": "Armâneashti"
   },
@@ -1295,17 +1280,17 @@
     "autonym": "中文"
   },
   {
-    "code": "zh-classical",
+    "code": "lzh",
     "name": "Classical Chinese",
     "autonym": "文言"
   },
   {
-    "code": "zh-min-nan",
+    "code": "nan",
     "name": "Minnan",
     "autonym": "Bân-lâm-gú"
   },
   {
-    "code": "zh-yue",
+    "code": "yue",
     "name": "Cantonese",
     "autonym": "粵語/粤语"
   },
