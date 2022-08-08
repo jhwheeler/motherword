@@ -16,20 +16,21 @@
     targetLang.set(newTarget)
   }
 
+  const search = text => dispatch('search', text)
+
+  $: search(query)
+
 </script>
 
 <div class="bottom-menu">
-  <form
-    on:submit|preventDefault={() => dispatch('search', query)}
-    class="input-wrapper"
-  >
+  <div class="input-wrapper">
     <input
       type="text"
       bind:value={query}
       placeholder="Translate a word..."
       class="search"
     >
-  </form>
+  </div>
 
   <div class="language-select">
     <LanguageSelectButton 
