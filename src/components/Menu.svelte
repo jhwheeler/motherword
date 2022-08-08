@@ -1,13 +1,14 @@
 <script>
   import LanguageSelectButton from './LanguageSelectButton.svelte'
-  import { sourceLang, targetLang } from '../stores'
+  import { languagePickerVisible, sourceLang, targetLang } from '../stores'
+  import { LANGUAGE_TYPE } from '../constants'
   import { createEventDispatcher } from 'svelte'
 
   const dispatch = createEventDispatcher()
 
   let query
 
-  function switchLanguage() {
+  function flipLanguages() {
     const newSource = $targetLang
     const newTarget = $sourceLang
 
@@ -18,7 +19,10 @@
 </script>
 
 <div class="bottom-menu">
-  <form on:submit|preventDefault={() => dispatch('search', query)} class="input-wrapper">
+  <form
+    on:submit|preventDefault={() => dispatch('search', query)}
+    class="input-wrapper"
+  >
     <input
       type="text"
       bind:value={query}
@@ -28,13 +32,19 @@
   </form>
 
   <div class="language-select">
-    <LanguageSelectButton language={$sourceLang} />
+    <LanguageSelectButton 
+      language={$sourceLang} 
+      on:click={() => languagePickerVisible.set(LANGUAGE_TYPE.SOURCE)}
+    />
 
-    <div class="switch button" on:click={switchLanguage}>
+    <button class="flip" on:click={flipLanguages}>
       <img src="/images/flip.svg" alt="switch language" />
-    </div>
+    </button>
 
-    <LanguageSelectButton language={$targetLang} />
+    <LanguageSelectButton 
+      language={$targetLang} 
+      on:click={() => languagePickerVisible.set(LANGUAGE_TYPE.TARGET)}
+    />
   </div>
 </div>
 
