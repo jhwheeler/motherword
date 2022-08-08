@@ -1,0 +1,1317 @@
+[
+  {
+    "code": "aa",
+    "name": "Afar",
+    "autonym": "Afar"
+  },
+  {
+    "code": "ab",
+    "name": "Abkhazian",
+    "autonym": "Аҧсуа"
+  },
+  {
+    "code": "af",
+    "name": "Afrikaans",
+    "autonym": "Afrikaans"
+  },
+  {
+    "code": "ak",
+    "name": "Akan",
+    "autonym": "Akana"
+  },
+  {
+    "code": "als",
+    "name": "Alemannic",
+    "autonym": "Alemannisch"
+  },
+  {
+    "code": "am",
+    "name": "Amharic",
+    "autonym": "አማርኛ"
+  },
+  {
+    "code": "an",
+    "name": "Aragonese",
+    "autonym": "Aragonés"
+  },
+  {
+    "code": "ang",
+    "name": "Angal",
+    "autonym": "Angal Heneng"
+  },
+  {
+    "code": "ang",
+    "name": "Anglo-Saxon/Old English",
+    "autonym": "Englisc"
+  },
+  {
+    "code": "ar",
+    "name": "Arabic",
+    "autonym": "العربية"
+  },
+  {
+    "code": "arc",
+    "name": "Aramaic",
+    "autonym": "ארמיא"
+  },
+  {
+    "code": "as",
+    "name": "Assamese",
+    "autonym": "অসমীয়া"
+  },
+  {
+    "code": "ast",
+    "name": "Asturian",
+    "autonym": "Asturianu"
+  },
+  {
+    "code": "av",
+    "name": "Avar",
+    "autonym": "Авар"
+  },
+  {
+    "code": "awa",
+    "name": "Awadhi",
+    "autonym": "Awadhi"
+  },
+  {
+    "code": "ay",
+    "name": "Aymara",
+    "autonym": "Aymar"
+  },
+  {
+    "code": "az",
+    "name": "Azerbaijani",
+    "autonym": "Azərbaycanca / آذربايجان"
+  },
+  {
+    "code": "ba",
+    "name": "Bashkir",
+    "autonym": "Башҡорт"
+  },
+  {
+    "code": "bar",
+    "name": "Bavarian",
+    "autonym": "Boarisch"
+  },
+  {
+    "code": "bat-smg",
+    "name": "Samogitian",
+    "autonym": "Žemaitėška"
+  },
+  {
+    "code": "bcl",
+    "name": "Bikol",
+    "autonym": "Bikol Central"
+  },
+  {
+    "code": "be",
+    "name": "Belarusian",
+    "autonym": "Беларуская"
+  },
+  {
+    "code": "be-x-old",
+    "name": "Belarusian (Taraškievica)",
+    "autonym": "Беларуская (тарашкевіца)"
+  },
+  {
+    "code": "bg",
+    "name": "Bulgarian",
+    "autonym": "Български"
+  },
+  {
+    "code": "bh",
+    "name": "Bihari",
+    "autonym": "भोजपुरी"
+  },
+  {
+    "code": "bi",
+    "name": "Bislama",
+    "autonym": "Bislama"
+  },
+  {
+    "code": "bm",
+    "name": "Bambara",
+    "autonym": "Bamanankan"
+  },
+  {
+    "code": "bn",
+    "name": "Bengali",
+    "autonym": "বাংলা"
+  },
+  {
+    "code": "bo",
+    "name": "Tibetan",
+    "autonym": "བོད་ཡིག/Bod skad"
+  },
+  {
+    "code": "bpy",
+    "name": "Bishnupriya Manipuri",
+    "autonym": "ইমার ঠার/বিষ্ণুপ্রিয়া মণিপুরী"
+  },
+  {
+    "code": "br",
+    "name": "Breton",
+    "autonym": "Brezhoneg"
+  },
+  {
+    "code": "brx",
+    "name": "Boro",
+    "autonym": "बड़"
+  },
+  {
+    "code": "bs",
+    "name": "Bosnian",
+    "autonym": "Bosanski"
+  },
+  {
+    "code": "bug",
+    "name": "Buginese",
+    "autonym": "Basa Ugi"
+  },
+  {
+    "code": "bxr",
+    "name": "Buriat (Russia)",
+    "autonym": "Буряад хэлэн"
+  },
+  {
+    "code": "ca",
+    "name": "Catalan",
+    "autonym": "Català"
+  },
+  {
+    "code": "cdo",
+    "name": "Min Dong Chinese",
+    "autonym": "Mìng-dĕ̤ng-ngṳ̄/閩東語"
+  },
+  {
+    "code": "ce",
+    "name": "Chechen",
+    "autonym": "Нохчийн"
+  },
+  {
+    "code": "ceb",
+    "name": "Cebuano",
+    "autonym": "Sinugboanong Binisaya"
+  },
+  {
+    "code": "ch",
+    "name": "Chamorro",
+    "autonym": "Chamoru"
+  },
+  {
+    "code": "cho",
+    "name": "Choctaw",
+    "autonym": "Choctaw"
+  },
+  {
+    "code": "chr",
+    "name": "Cherokee",
+    "autonym": "ᏣᎳᎩ"
+  },
+  {
+    "code": "chy",
+    "name": "Cheyenne",
+    "autonym": "Tsetsêhestâhese"
+  },
+  {
+    "code": "ckb",
+    "name": "Kurdish (Sorani)",
+    "autonym": "کوردی"
+  },
+  {
+    "code": "co",
+    "name": "Corsican",
+    "autonym": "Corsu"
+  },
+  {
+    "code": "cr",
+    "name": "Cree",
+    "autonym": "Nehiyaw"
+  },
+  {
+    "code": "cs",
+    "name": "Czech",
+    "autonym": "Česky"
+  },
+  {
+    "code": "csb",
+    "name": "Kashubian",
+    "autonym": "Kaszëbsczi"
+  },
+  {
+    "code": "cu",
+    "name": "Old Church Slavonic/Old Bulgarian",
+    "autonym": "словѣньскъ/slověnĭskŭ"
+  },
+  {
+    "code": "cv",
+    "name": "Chuvash",
+    "autonym": "Чăваш"
+  },
+  {
+    "code": "cy",
+    "name": "Welsh",
+    "autonym": "Cymraeg"
+  },
+  {
+    "code": "da",
+    "name": "Danish",
+    "autonym": "Dansk"
+  },
+  {
+    "code": "de",
+    "name": "German",
+    "autonym": "Deutsch"
+  },
+  {
+    "code": "diq",
+    "name": "Dimli",
+    "autonym": "Zazaki"
+  },
+  {
+    "code": "dsb",
+    "name": "Lower Sorbian",
+    "autonym": "Dolnoserbski"
+  },
+  {
+    "code": "dv",
+    "name": "Divehi",
+    "autonym": "ދިވެހިބަސް"
+  },
+  {
+    "code": "dz",
+    "name": "Dzongkha",
+    "autonym": "རྫོང་ཁ"
+  },
+  {
+    "code": "ee",
+    "name": "Ewe",
+    "autonym": "Ɛʋɛ"
+  },
+  {
+    "code": "el",
+    "name": "Greek",
+    "autonym": "Ελληνικά"
+  },
+  {
+    "code": "en",
+    "name": "English",
+    "autonym": "English"
+  },
+  {
+    "code": "eo",
+    "name": "Esperanto",
+    "autonym": "Esperanto"
+  },
+  {
+    "code": "es",
+    "name": "Spanish",
+    "autonym": "Español"
+  },
+  {
+    "code": "et",
+    "name": "Estonian",
+    "autonym": "Eesti"
+  },
+  {
+    "code": "eu",
+    "name": "Basque",
+    "autonym": "Euskara"
+  },
+  {
+    "code": "ext",
+    "name": "Extremaduran",
+    "autonym": "Estremeñu"
+  },
+  {
+    "code": "fa",
+    "name": "Persian",
+    "autonym": "فارسی"
+  },
+  {
+    "code": "ff",
+    "name": "Peul",
+    "autonym": "Fulfulde"
+  },
+  {
+    "code": "fi",
+    "name": "Finnish",
+    "autonym": "Suomi"
+  },
+  {
+    "code": "fiu-vro",
+    "name": "Võro",
+    "autonym": "Võro"
+  },
+  {
+    "code": "fj",
+    "name": "Fijian",
+    "autonym": "Na Vosa Vakaviti"
+  },
+  {
+    "code": "fo",
+    "name": "Faroese",
+    "autonym": "Føroyskt"
+  },
+  {
+    "code": "fr",
+    "name": "French",
+    "autonym": "Français"
+  },
+  {
+    "code": "frp",
+    "name": "Arpitan/Franco-Provençal",
+    "autonym": "Arpitan/francoprovençal"
+  },
+  {
+    "code": "fur",
+    "name": "Friulian",
+    "autonym": "Furlan"
+  },
+  {
+    "code": "fy",
+    "name": "West Frisian",
+    "autonym": "Frysk"
+  },
+  {
+    "code": "ga",
+    "name": "Irish",
+    "autonym": "Gaeilge"
+  },
+  {
+    "code": "gan",
+    "name": "Gan Chinese",
+    "autonym": "贛語"
+  },
+  {
+    "code": "gbm",
+    "name": "Garhwali",
+    "autonym": "गढ़वळी"
+  },
+  {
+    "code": "gd",
+    "name": "Scottish Gaelic",
+    "autonym": "Gàidhlig"
+  },
+  {
+    "code": "gil",
+    "name": "Gilbertese",
+    "autonym": "Taetae ni kiribati"
+  },
+  {
+    "code": "gl",
+    "name": "Galician",
+    "autonym": "Galego"
+  },
+  {
+    "code": "gn",
+    "name": "Guarani",
+    "autonym": "Avañe'ẽ"
+  },
+  {
+    "code": "got",
+    "name": "Gothic",
+    "autonym": "gutisk"
+  },
+  {
+    "code": "gu",
+    "name": "Gujarati",
+    "autonym": "ગુજરાતી"
+  },
+  {
+    "code": "gv",
+    "name": "Manx",
+    "autonym": "Gaelg"
+  },
+  {
+    "code": "ha",
+    "name": "Hausa",
+    "autonym": "هَوُسَ"
+  },
+  {
+    "code": "hak",
+    "name": "Hakka Chinese",
+    "autonym": "客家語/Hak-kâ-ngî"
+  },
+  {
+    "code": "haw",
+    "name": "Hawaiian",
+    "autonym": "Hawai`i"
+  },
+  {
+    "code": "he",
+    "name": "Hebrew",
+    "autonym": "עברית"
+  },
+  {
+    "code": "hi",
+    "name": "Hindi",
+    "autonym": "हिन्दी"
+  },
+  {
+    "code": "ho",
+    "name": "Hiri Motu",
+    "autonym": "Hiri Motu"
+  },
+  {
+    "code": "hr",
+    "name": "Croatian",
+    "autonym": "Hrvatski"
+  },
+  {
+    "code": "ht",
+    "name": "Haitian",
+    "autonym": "Krèyol ayisyen"
+  },
+  {
+    "code": "hu",
+    "name": "Hungarian",
+    "autonym": "Magyar"
+  },
+  {
+    "code": "hy",
+    "name": "Armenian",
+    "autonym": "Հայերեն"
+  },
+  {
+    "code": "hz",
+    "name": "Herero",
+    "autonym": "Otsiherero"
+  },
+  {
+    "code": "ia",
+    "name": "Interlingua",
+    "autonym": "Interlingua"
+  },
+  {
+    "code": "id",
+    "name": "Indonesian",
+    "autonym": "Bahasa Indonesia"
+  },
+  {
+    "code": "ie",
+    "name": "Interlingue",
+    "autonym": "Interlingue"
+  },
+  {
+    "code": "ig",
+    "name": "Igbo",
+    "autonym": "Igbo"
+  },
+  {
+    "code": "ii",
+    "name": "Sichuan Yi",
+    "autonym": "四川彝语"
+  },
+  {
+    "code": "ik",
+    "name": "Inupiak",
+    "autonym": "Iñupiak"
+  },
+  {
+    "code": "ilo",
+    "name": "Ilokano",
+    "autonym": "Ilokano"
+  },
+  {
+    "code": "inh",
+    "name": "Ingush",
+    "autonym": "ГӀалгӀай"
+  },
+  {
+    "code": "io",
+    "name": "Ido",
+    "autonym": "Ido"
+  },
+  {
+    "code": "is",
+    "name": "Icelandic",
+    "autonym": "Íslenska"
+  },
+  {
+    "code": "it",
+    "name": "Italian",
+    "autonym": "Italiano"
+  },
+  {
+    "code": "iu",
+    "name": "Inuktitut",
+    "autonym": "ᐃᓄᒃᑎᑐᑦ"
+  },
+  {
+    "code": "ja",
+    "name": "Japanese",
+    "autonym": "日本語"
+  },
+  {
+    "code": "jbo",
+    "name": "Lojban",
+    "autonym": "Lojban"
+  },
+  {
+    "code": "jv",
+    "name": "Javanese",
+    "autonym": "Basa Jawa"
+  },
+  {
+    "code": "ka",
+    "name": "Georgian",
+    "autonym": "ქართული"
+  },
+  {
+    "code": "kg",
+    "name": "Kongo",
+    "autonym": "KiKongo"
+  },
+  {
+    "code": "ki",
+    "name": "Kikuyu",
+    "autonym": "Gĩkũyũ"
+  },
+  {
+    "code": "kj",
+    "name": "Kuanyama",
+    "autonym": "Kuanyama"
+  },
+  {
+    "code": "kk",
+    "name": "Kazakh",
+    "autonym": "Қазақша"
+  },
+  {
+    "code": "kl",
+    "name": "Greenlandic",
+    "autonym": "Kalaallisut"
+  },
+  {
+    "code": "km",
+    "name": "Cambodian",
+    "autonym": "ភាសាខ្មែរ"
+  },
+  {
+    "code": "kn",
+    "name": "Kannada",
+    "autonym": "ಕನ್ನಡ"
+  },
+  {
+    "code": "khw",
+    "name": "Khowar",
+    "autonym": "کھوار"
+  },
+  {
+    "code": "ko",
+    "name": "Korean",
+    "autonym": "한국어"
+  },
+  {
+    "code": "kr",
+    "name": "Kanuri",
+    "autonym": "Kanuri"
+  },
+  {
+    "code": "ks",
+    "name": "Kashmiri",
+    "autonym": "कॉशुर /کٲشُر"
+  },
+  {
+    "code": "ksh",
+    "name": "Ripuarian",
+    "autonym": "Ripoarisch"
+  },
+  {
+    "code": "ku",
+    "name": "Kurdish (Kurmanji)",
+    "autonym": "Kurdî"
+  },
+  {
+    "code": "kv",
+    "name": "Komi",
+    "autonym": "Коми"
+  },
+  {
+    "code": "kw",
+    "name": "Cornish",
+    "autonym": "Kernewek"
+  },
+  {
+    "code": "ky",
+    "name": "Kirghiz",
+    "autonym": "Kırgızca/Кыргызча"
+  },
+  {
+    "code": "la",
+    "name": "Latin",
+    "autonym": "Latina"
+  },
+  {
+    "code": "lad",
+    "name": "Ladino/Judeo-Spanish",
+    "autonym": "Dzhudezmo/Djudeo-Espanyol"
+  },
+  {
+    "code": "lan",
+    "name": "Lango",
+    "autonym": "Leb Lango/Luo"
+  },
+  {
+    "code": "lb",
+    "name": "Luxembourgish",
+    "autonym": "Lëtzebuergesch"
+  },
+  {
+    "code": "lg",
+    "name": "Ganda",
+    "autonym": "Luganda"
+  },
+  {
+    "code": "li",
+    "name": "Limburgian",
+    "autonym": "Limburgs"
+  },
+  {
+    "code": "lij",
+    "name": "Ligurian",
+    "autonym": "Líguru"
+  },
+  {
+    "code": "lmo",
+    "name": "Lombard",
+    "autonym": "Lumbaart"
+  },
+  {
+    "code": "ln",
+    "name": "Lingala",
+    "autonym": "Lingála"
+  },
+  {
+    "code": "lo",
+    "name": "Laotian",
+    "autonym": "ລາວ/Pha xa lao"
+  },
+  {
+    "code": "lzz",
+    "name": "Laz",
+    "autonym": "Lazuri/ლაზური"
+  },
+  {
+    "code": "lt",
+    "name": "Lithuanian",
+    "autonym": "Lietuvių"
+  },
+  {
+    "code": "lv",
+    "name": "Latvian",
+    "autonym": "Latviešu"
+  },
+  {
+    "code": "map-bms",
+    "name": "Banyumasan",
+    "autonym": "Basa Banyumasan"
+  },
+  {
+    "code": "mg",
+    "name": "Malagasy",
+    "autonym": "Malagasy"
+  },
+  {
+    "code": "man",
+    "name": "Mandarin",
+    "autonym": "官話/官话"
+  },
+  {
+    "code": "mh",
+    "name": "Marshallese",
+    "autonym": "Kajin Majel/Ebon"
+  },
+  {
+    "code": "mi",
+    "name": "Māori",
+    "autonym": "Māori"
+  },
+  {
+    "code": "min",
+    "name": "Minangkabau",
+    "autonym": "Minangkabau"
+  },
+  {
+    "code": "mk",
+    "name": "Macedonian",
+    "autonym": "Македонски"
+  },
+  {
+    "code": "ml",
+    "name": "Malayalam",
+    "autonym": "മലയാളം"
+  },
+  {
+    "code": "mn",
+    "name": "Mongolian",
+    "autonym": "Монгол"
+  },
+  {
+    "code": "mo",
+    "name": "Moldovan",
+    "autonym": "Moldovenească"
+  },
+  {
+    "code": "mr",
+    "name": "Marathi",
+    "autonym": "मराठी"
+  },
+  {
+    "code": "mrh",
+    "name": "Mara",
+    "autonym": "Mara"
+  },
+  {
+    "code": "ms",
+    "name": "Malay",
+    "autonym": "Bahasa Melayu"
+  },
+  {
+    "code": "mt",
+    "name": "Maltese",
+    "autonym": "bil-Malti"
+  },
+  {
+    "code": "mus",
+    "name": "Creek/Muskogee",
+    "autonym": "Mvskoke"
+  },
+  {
+    "code": "mwl",
+    "name": "Mirandese",
+    "autonym": "Mirandés"
+  },
+  {
+    "code": "my",
+    "name": "Burmese",
+    "autonym": "Myanmasa"
+  },
+  {
+    "code": "na",
+    "name": "Nauruan",
+    "autonym": "Dorerin Naoero"
+  },
+  {
+    "code": "nah",
+    "name": "Nahuatl",
+    "autonym": "Nahuatl"
+  },
+  {
+    "code": "nap",
+    "name": "Neapolitan",
+    "autonym": "Nnapulitano"
+  },
+  {
+    "code": "nd",
+    "name": "North Ndebele",
+    "autonym": "Sindebele"
+  },
+  {
+    "code": "nds",
+    "name": "Low German/ Low Saxon",
+    "autonym": "Plattdüütsch"
+  },
+  {
+    "code": "nds-nl",
+    "name": "Dutch Low Saxon",
+    "autonym": "Nedersaksisch"
+  },
+  {
+    "code": "ne",
+    "name": "Nepali",
+    "autonym": "नेपाली"
+  },
+  {
+    "code": "new",
+    "name": "Newar",
+    "autonym": "नेपालभाषा / /Newah Bhaye"
+  },
+  {
+    "code": "ng",
+    "name": "Ndonga",
+    "autonym": "Oshiwambo"
+  },
+  {
+    "code": "nl",
+    "name": "Dutch",
+    "autonym": "Nederlands"
+  },
+  {
+    "code": "nn",
+    "name": "Norwegian Nynorsk",
+    "autonym": "Norsk (nynorsk)"
+  },
+  {
+    "code": "no",
+    "name": "Norwegian",
+    "autonym": "Norsk (bokmål)"
+  },
+  {
+    "code": "nr",
+    "name": "South Ndebele",
+    "autonym": "isiNdebele"
+  },
+  {
+    "code": "nso",
+    "name": "Northern Sotho",
+    "autonym": "Sesotho sa Leboa/Sepedi"
+  },
+  {
+    "code": "nrm",
+    "name": "Norman",
+    "autonym": "Nouormand/Normaund"
+  },
+  {
+    "code": "nv",
+    "name": "Navajo",
+    "autonym": "Diné bizaad"
+  },
+  {
+    "code": "ny",
+    "name": "Chichewa",
+    "autonym": "Chi-Chewa"
+  },
+  {
+    "code": "oc",
+    "name": "Occitan",
+    "autonym": "Occitan"
+  },
+  {
+    "code": "oj",
+    "name": "Ojibwa",
+    "autonym": "ᐊᓂᔑᓈᐯᒧᐎᓐ/Anishinaabemowin"
+  },
+  {
+    "code": "om",
+    "name": "Oromo",
+    "autonym": "Oromoo"
+  },
+  {
+    "code": "or",
+    "name": "Oriya",
+    "autonym": "ଓଡ଼ିଆ"
+  },
+  {
+    "code": "os",
+    "name": "Ossetian/Ossetic",
+    "autonym": "Иронау"
+  },
+  {
+    "code": "pa",
+    "name": "Panjabi/Punjabi",
+    "autonym": "ਪੰਜਾਬੀ / پنجابی"
+  },
+  {
+    "code": "pag",
+    "name": "Pangasinan",
+    "autonym": "Pangasinan"
+  },
+  {
+    "code": "pam",
+    "name": "Kapampangan",
+    "autonym": "Kapampangan"
+  },
+  {
+    "code": "pap",
+    "name": "Papiamentu",
+    "autonym": "Papiamentu"
+  },
+  {
+    "code": "pdc",
+    "name": "Pennsylvania German",
+    "autonym": "Deitsch"
+  },
+  {
+    "code": "pi",
+    "name": "Pali",
+    "autonym": "Pāli/पाऴि"
+  },
+  {
+    "code": "pih",
+    "name": "Norfolk",
+    "autonym": "Norfuk"
+  },
+  {
+    "code": "pl",
+    "name": "Polish",
+    "autonym": "Polski"
+  },
+  {
+    "code": "pms",
+    "name": "Piedmontese",
+    "autonym": "Piemontèis"
+  },
+  {
+    "code": "ps",
+    "name": "Pashto",
+    "autonym": "پښتو"
+  },
+  {
+    "code": "pt",
+    "name": "Portuguese",
+    "autonym": "Português"
+  },
+  {
+    "code": "qu",
+    "name": "Quechua",
+    "autonym": "Runa Simi"
+  },
+  {
+    "code": "rm",
+    "name": "Raeto Romance",
+    "autonym": "Rumantsch"
+  },
+  {
+    "code": "rmy",
+    "name": "Romani",
+    "autonym": "Romani/रोमानी"
+  },
+  {
+    "code": "rn",
+    "name": "Kirundi",
+    "autonym": "Kirundi"
+  },
+  {
+    "code": "ro",
+    "name": "Romanian",
+    "autonym": "Română"
+  },
+  {
+    "code": "roa-rup",
+    "name": "Aromanian",
+    "autonym": "Armâneashti"
+  },
+  {
+    "code": "ru",
+    "name": "Russian",
+    "autonym": "Русский"
+  },
+  {
+    "code": "rw",
+    "name": "Rwandi",
+    "autonym": "Kinyarwandi"
+  },
+  {
+    "code": "sa",
+    "name": "Sanskrit",
+    "autonym": "संस्कृतम्"
+  },
+  {
+    "code": "sc",
+    "name": "Sardinian",
+    "autonym": "Sardu"
+  },
+  {
+    "code": "scn",
+    "name": "Sicilian",
+    "autonym": "Sicilianu"
+  },
+  {
+    "code": "sco",
+    "name": "Scots",
+    "autonym": "Scots"
+  },
+  {
+    "code": "sd",
+    "name": "Sindhi",
+    "autonym": "सिंधी / /سنڌي‎"
+  },
+  {
+    "code": "se",
+    "name": "Northern Sami",
+    "autonym": "Davvisámegiella"
+  },
+  {
+    "code": "sg",
+    "name": "Sango",
+    "autonym": "Sängö"
+  },
+  {
+    "code": "si",
+    "name": "Sinhalese",
+    "autonym": "සිංහල"
+  },
+  {
+    "code": "simple",
+    "name": "Simple English",
+    "autonym": "Simple English"
+  },
+  {
+    "code": "sk",
+    "name": "Slovak",
+    "autonym": "Slovenčina"
+  },
+  {
+    "code": "sl",
+    "name": "Slovenian",
+    "autonym": "Slovenščina"
+  },
+  {
+    "code": "sm",
+    "name": "Samoan",
+    "autonym": "Gagana Samoa"
+  },
+  {
+    "code": "sn",
+    "name": "Shona",
+    "autonym": "chiShona"
+  },
+  {
+    "code": "so",
+    "name": "Somalia",
+    "autonym": "Soomaaliga"
+  },
+  {
+    "code": "sq",
+    "name": "Albanian",
+    "autonym": "Shqip"
+  },
+  {
+    "code": "sr",
+    "name": "Serbian",
+    "autonym": "Српски"
+  },
+  {
+    "code": "ss",
+    "name": "Swati",
+    "autonym": "SiSwati"
+  },
+  {
+    "code": "st",
+    "name": "Southern Sotho",
+    "autonym": "Sesotho"
+  },
+  {
+    "code": "su",
+    "name": "Sundanese",
+    "autonym": "Basa Sunda"
+  },
+  {
+    "code": "sv",
+    "name": "Swedish",
+    "autonym": "Svenska"
+  },
+  {
+    "code": "sw",
+    "name": "Swahili",
+    "autonym": "Kiswahili"
+  },
+  {
+    "code": "ta",
+    "name": "Tamil",
+    "autonym": "தமிழ்"
+  },
+  {
+    "code": "te",
+    "name": "Telugu",
+    "autonym": "తెలుగు"
+  },
+  {
+    "code": "tet",
+    "name": "Tetum",
+    "autonym": "Tetun"
+  },
+  {
+    "code": "tg",
+    "name": "Tajik",
+    "autonym": "Тоҷикӣ"
+  },
+  {
+    "code": "th",
+    "name": "Thai",
+    "autonym": "ไทย/Phasa Thai"
+  },
+  {
+    "code": "ti",
+    "name": "Tigrinya",
+    "autonym": "ትግርኛ"
+  },
+  {
+    "code": "tk",
+    "name": "Turkmen",
+    "autonym": "Туркмен / تركمن"
+  },
+  {
+    "code": "tl",
+    "name": "Tagalog",
+    "autonym": "Tagalog"
+  },
+  {
+    "code": "tlh",
+    "name": "Klingon",
+    "autonym": "tlhIngan-Hol"
+  },
+  {
+    "code": "tn",
+    "name": "Tswana",
+    "autonym": "Setswana"
+  },
+  {
+    "code": "to",
+    "name": "Tonga",
+    "autonym": "Lea Faka-Tonga"
+  },
+  {
+    "code": "tpi",
+    "name": "Tok Pisin",
+    "autonym": "Tok Pisin"
+  },
+  {
+    "code": "tr",
+    "name": "Turkish",
+    "autonym": "Türkçe"
+  },
+  {
+    "code": "ts",
+    "name": "Tsonga",
+    "autonym": "Xitsonga"
+  },
+  {
+    "code": "tt",
+    "name": "Tatar",
+    "autonym": "Tatarça"
+  },
+  {
+    "code": "tum",
+    "name": "Tumbuka",
+    "autonym": "chiTumbuka"
+  },
+  {
+    "code": "tw",
+    "name": "Twi",
+    "autonym": "Twi"
+  },
+  {
+    "code": "ty",
+    "name": "Tahitian",
+    "autonym": "Reo Mā`ohi"
+  },
+  {
+    "code": "udm",
+    "name": "Udmurt",
+    "autonym": "Удмурт кыл"
+  },
+  {
+    "code": "ug",
+    "name": "Uyghur",
+    "autonym": "Uyƣurqə/ئۇيغۇرچە"
+  },
+  {
+    "code": "uk",
+    "name": "Ukrainian",
+    "autonym": "Українська"
+  },
+  {
+    "code": "ur",
+    "name": "Urdu",
+    "autonym": "اردو"
+  },
+  {
+    "code": "uz",
+    "name": "Uzbek",
+    "autonym": "Ўзбек"
+  },
+  {
+    "code": "uz_AF",
+    "name": "Uzbeki Afghanistan",
+    "autonym": "اوزبیکی"
+  },
+  {
+    "code": "ve",
+    "name": "Venda",
+    "autonym": "Tshivenḓa"
+  },
+  {
+    "code": "vi",
+    "name": "Vietnamese",
+    "autonym": "Tiếng Việt"
+  },
+  {
+    "code": "vec",
+    "name": "Venetian",
+    "autonym": "Vèneto"
+  },
+  {
+    "code": "vls",
+    "name": "West Flemish",
+    "autonym": "West-Vlaoms"
+  },
+  {
+    "code": "vo",
+    "name": "Volapük",
+    "autonym": "Volapük"
+  },
+  {
+    "code": "wa",
+    "name": "Walloon",
+    "autonym": "Walon"
+  },
+  {
+    "code": "war",
+    "name": "Waray/Samar-Leyte Visayan",
+    "autonym": "Winaray/Binisaya Lineyte-Samarnon"
+  },
+  {
+    "code": "wo",
+    "name": "Wolof",
+    "autonym": "Wollof"
+  },
+  {
+    "code": "xal",
+    "name": "Kalmyk",
+    "autonym": "Хальмг"
+  },
+  {
+    "code": "xh",
+    "name": "Xhosa",
+    "autonym": "isiXhosa"
+  },
+  {
+    "code": "xmf",
+    "name": "Megrelian",
+    "autonym": "მარგალური"
+  },
+  {
+    "code": "yi",
+    "name": "Yiddish",
+    "autonym": "ייִדיש"
+  },
+  {
+    "code": "yo",
+    "name": "Yoruba",
+    "autonym": "Yorùbá"
+  },
+  {
+    "code": "za",
+    "name": "Zhuang",
+    "autonym": "Cuengh/Tôô/壮语"
+  },
+  {
+    "code": "zh",
+    "name": "Chinese",
+    "autonym": "中文"
+  },
+  {
+    "code": "zh-classical",
+    "name": "Classical Chinese",
+    "autonym": "文言"
+  },
+  {
+    "code": "zh-min-nan",
+    "name": "Minnan",
+    "autonym": "Bân-lâm-gú"
+  },
+  {
+    "code": "zh-yue",
+    "name": "Cantonese",
+    "autonym": "粵語/粤语"
+  },
+  {
+    "code": "zu",
+    "name": "Zulu",
+    "autonym": "isiZulu"
+  }
+]
