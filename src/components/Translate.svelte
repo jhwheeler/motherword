@@ -18,9 +18,6 @@
   }
 
   async function search (event) {
-    const languages = await wiki.languages()
-    console.log('languages', languages)
-
     clear()
     loading = true
 
