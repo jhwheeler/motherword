@@ -1,15 +1,19 @@
 <script>
+  import { languagePickerVisible } from '../stores'
+
   export let language
+
+  const showLanguagePicker = () => languagePickerVisible.set(true)
 
 </script>
 
-<div class="button flex1">
+<button on:click={showLanguagePicker}>
   <div class="language-choice">
     <div class="code">{language.code}</div>
     <div class="name">{language.name}</div>
   </div>
   <div class="search"></div>
-</div>
+</button>
 
 
 <style>
