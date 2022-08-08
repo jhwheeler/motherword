@@ -51,21 +51,13 @@
     gap: 0.5rem;
   }
 
-  .language-select .button {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 0.5rem;
-    justify-content: space-between;
-    display: flex;
-    height: 2rem;
-    padding: 0.25rem 0.5rem;
-  }
-
-  .switch {
-    width: 2rem;
-    height: 2rem;
+  .flip {
+    width: 3rem;
+    height: 3rem;
     background-size: 2rem;
     padding: 0;
+    flex: initial;
+    justify-content: center;
   }
 
   .input-wrapper {
@@ -80,7 +72,7 @@
     background-color: #F2FFFB;
     border-radius: 5px;
     height: 1.5rem;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 1rem 1.25rem;
     border: 0;
   }

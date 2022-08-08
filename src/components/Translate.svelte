@@ -62,32 +62,40 @@
 
 </script>
 
-{#if loading}
-  Loading...
-{/if}
+<section>
+  {#if loading}
+    <h2>Loading...</h2>
+  {/if}
 
-{#if error}
-  <p>{error}</p>
-{/if}
+  {#if error}
+    <p>{error}</p>
+  {/if}
 
-{#if searchResult}
-  <h2>Results</h2>
+  {#if searchResult}
+    <h2>Results</h2>
 
-  <SearchResult {searchResult} lang={$targetLang.code} />
-{/if}
+    <SearchResult {searchResult} lang={$targetLang.code} />
+  {/if}
 
-{#if disambiguationLinks?.length}
-  <p>Did you mean...?</p>
+  {#if disambiguationLinks?.length}
+    <p>Did you mean...?</p>
 
-  {#each disambiguationLinks as link}
-    <SearchResult
-      searchResult={link}
-      lang={$sourceLang.code}
-      on:resetSearch={search}
-      isDisambiguationLink
-    />
-  {/each}
+    {#each disambiguationLinks as link}
+      <SearchResult
+        searchResult={link}
+        lang={$sourceLang.code}
+        on:resetSearch={search}
+        isDisambiguationLink
+      />
+    {/each}
 
-{/if}
+  {/if}
+</section>
 
 <Menu on:search={search} />
+
+<style>
+  section {
+    padding: 0.5rem;
+  }
+</style>

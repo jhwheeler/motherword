@@ -12,10 +12,6 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-.flex1 {
-    flex: 1;
-}
-
 button {
     display: flex;
     flex: 1;
@@ -24,9 +20,12 @@ button {
     border: 2px solid #383B3A;
     border-radius: 0.25rem;
     user-select: none;
+    height: 3rem;
+    font-family: inherit;
+    font-size: 1rem;
 }
 
-.button:hover {
+button:hover {
     cursor: pointer
 }
 
