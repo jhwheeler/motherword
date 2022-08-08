@@ -66,6 +66,8 @@
       return
     }
 
+    disambiguationLinks = []
+
     searchResult = result.title
   }
 
